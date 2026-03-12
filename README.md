@@ -271,7 +271,7 @@ MIT License - See LICENSE file for details.
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0.0 | 2024-11-15 | Initial release with 6 core skills |
+| 1.0.0 | 2026-12-03 | Initial release with 6 core skills |
 
 ---
 
