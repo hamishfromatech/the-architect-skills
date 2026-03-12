@@ -1,4 +1,4 @@
-# The Architect
+# The Architect Skills
 
 A modular skill-based system for business productivity and automation.
 
