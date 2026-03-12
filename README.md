@@ -20,6 +20,13 @@ The Architect is a collection of specialized skills designed to assist with ever
 | [Task Prioritizer](skills/task-prioritizer/SKILL.md) | Task organization | Eisenhower matrix, MoSCoW, weighted scoring |
 | [Report Writer](skills/report-writer/SKILL.md) | Business report generation | Status reports, progress reports, executive summaries |
 
+### Content Creation Skills
+
+| Skill | Purpose | Key Features |
+|-------|---------|--------------|
+| [PowerPoint Generator](skills/powerpoint-generator/SKILL.md) | Presentation creation | Slides, charts, tables, images |
+| [Video Creator](skills/video-creator/SKILL.md) | Video production | Clips, overlays, audio, transitions |
+
 ### Meta Skill
 
 | Skill | Purpose | Key Features |
@@ -53,6 +60,12 @@ Skills are triggered by specific phrases. For example:
 - **Meeting Summarizer**: "summarize the meeting", "create meeting notes", "extract action items"
 - **Task Prioritizer**: "prioritize my tasks", "organize my work", "rank priorities"
 - **Report Writer**: "write a report", "create a status report", "generate an executive summary"
+- **PowerPoint Generator**: "create a PowerPoint", "make a presentation", "generate slides"
+- **Video Creator**: "create a video", "make a video", "edit video", "video from images"
+- **PowerPoint Generator**: "create a PowerPoint", "make a presentation", "generate slides"
+- **Video Creator**: "create a video", "make a video", "edit video", "combine videos"
+- **PowerPoint Generator**: "create a PowerPoint", "make a presentation", "generate slides"
+- **Video Creator**: "create a video", "make a video", "edit video", "video from images"
 
 ### Creating New Skills
 
@@ -157,6 +170,39 @@ Creates professional business reports.
 
 ---
 
+### PowerPoint Generator
+
+Creates professional PowerPoint presentations programmatically.
+
+**Capabilities:**
+- Create presentations from scratch
+- Add slides with various layouts
+- Insert images, tables, and charts
+- Format text and shapes
+- Export to .pptx format
+
+**Python Modules:**
+- `presentation_builder.py` - Build presentations from structured data
+
+---
+
+### Video Creator
+
+Produces videos using MoviePy and FFmpeg.
+
+**Capabilities:**
+- Create videos from images
+- Concatenate video clips
+- Add text overlays and titles
+- Mix audio tracks
+- Apply transitions and effects
+- Export to MP4, GIF, and more
+
+**Python Modules:**
+- `video_builder.py` - Build videos from structured specifications
+
+---
+
 ### Create Skill
 
 Meta-skill for creating new skills and extending The Architect.
@@ -247,13 +293,7 @@ else:
 
 ## About
 
-This repository is **open source** and contains the skill definitions, scripts, and documentation for The Architect.
-
-**Note:** The Architect application itself is proprietary software and will be available soon. This repository provides the skill framework and content that powers The Architect's capabilities.
-
-## About
-
-This repository contains the open-source skills for The Architect. The skills are freely available for use, modification, and distribution under the MIT License.
+This repository is **open source** and contains the skill definitions, scripts, and documentation for The Architect. The skills are freely available for use, modification, and distribution under the MIT License.
 
 **Note:** The Architect application itself is proprietary software and is not open source. The app will be available soon. For updates and announcements, visit [The A-Tech Corporation](https://theatechcorporation.com).
 
@@ -271,6 +311,7 @@ MIT License - See LICENSE file for details.
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1.0 | 2026-03-12 | Added PowerPoint Generator and Video Creator skills |
 | 1.0.0 | 2026-12-03 | Initial release with 6 core skills |
 
 ---
